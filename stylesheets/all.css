@@ -9448,6 +9448,16 @@ button.close {
     font-size: 25px;
     font-weight: 100; }
 
+/* line 16, /Users/clementpoursac/Documents/lewagon-front/stylus/source/stylesheets/pages/_home.css.scss */
+.testimonial {
+  background: white;
+  padding: 40px;
+  box-shadow: 1px 1px 3px #d0cfcf; }
+  /* line 20, /Users/clementpoursac/Documents/lewagon-front/stylus/source/stylesheets/pages/_home.css.scss */
+  .testimonial img {
+    width: 40%;
+    margin: 0 auto; }
+
 /*
 ==============================================
 CSS3 ANIMATION CHEAT SHEET
