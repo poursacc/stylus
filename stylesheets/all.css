@@ -9243,6 +9243,34 @@ button.close {
 .fa-meanpath:before {
   content: ""; }
 
+@keyframes appearIn {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 0.5; }
+  100% {
+    opacity: 1; } }
+@-webkit-keyframes appearIn {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 0.5; }
+  100% {
+    opacity: 1; } }
+@-moz-keyframes appearIn {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 0.5; }
+  100% {
+    opacity: 1; } }
+/* line 39, /Users/clementpoursac/Documents/lewagon-front/stylus/source/stylesheets/layout/-animation.css.scss */
+.appearIn {
+  opacity: 0;
+  animation: appearIn 2s 0.5s ease forwards;
+  -webkit-animation: appearIn 2s 0.5s ease forwards;
+  -moz-animation: appearIn 2s 0.5s ease forwards; }
+
 /* line 2, /Users/clementpoursac/Documents/lewagon-front/stylus/source/stylesheets/layout/_footer.css.scss */
 #footer {
   background: #222222;
@@ -9457,6 +9485,11 @@ button.close {
   .testimonial img {
     width: 40%;
     margin: 0 auto; }
+
+/* line 26, /Users/clementpoursac/Documents/lewagon-front/stylus/source/stylesheets/pages/_home.css.scss */
+.blue-bg {
+  background-color: #469AE0;
+  color: white; }
 
 /*
 ==============================================
